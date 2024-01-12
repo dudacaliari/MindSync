@@ -1,0 +1,15 @@
+body{
+    font-family: rubik;
+    background-color: #F1F0ED;
+}
+
+header{
+    width: 20px;
+    height: 20px;
+    display: flex;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
