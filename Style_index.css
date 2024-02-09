@@ -1,11 +1,12 @@
 body{
     font-family: rubik;
     background-color: #F1F0ED;
+    /*min-height: 1800px; nao funciona*/
 }
 
 header{
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     background-color: #F1F0ED;
     padding-left: 30px;
@@ -15,10 +16,21 @@ header{
     margin: 20px;
 }
 
-#word_login{
+#button_login{
     margin: 30px;
     float: right;
     color: #6092A3;
+    border: 0px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+#button_login:hover{
+    background-color: #6092A3;
+    color:#F1F0ED;
+    
 }
 
 #fundo_criancas{
@@ -47,16 +59,61 @@ header{
     font-family: 'Libre Franklin', sans-serif;
     color: white;
     text-shadow: 2px 2px 4px #4a4747;
+    width: 100%;
+    padding: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #btn_cadastro{
     position: absolute;
     margin-top: 35%;
+    margin-left: 44%;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    border: 3px solid #F1F0ED;
+    color: #7FA449;
+    font-weight: bold;
 }
 
+#btn_cadastro:hover{
+    border: 3px solid #7FA449;
+   
+}
+
+#elementos1e2{
+    display: flex;
+}
+
+#organico_verde{
+    width: 100%;
+    margin: 10%;
+}
+
+#organico_azul{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.text_container2{
+    position: absolute;
+    margin-top: 10%;
+}
+
+.text_container1{
+    position: absolute;
+    margin: 10%;
+}
+
+
+
+/*
 #divisor_onda{
     --wave-url: url(./assets/waves.svg);
     background: var(--wave-url);
     position: absolute;
     z-index: 2;
 }
+*/
